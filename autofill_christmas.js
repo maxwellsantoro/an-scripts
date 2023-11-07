@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Autofill Christmas
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
-// @match       *://*/*
+// @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
 // @version     1.0
 // @author      Maxwell Santoro
