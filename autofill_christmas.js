@@ -3,7 +3,7 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      Maxwell Santoro
 // @description 11/5/2023, 11:44:06 PM
 // ==/UserScript==
