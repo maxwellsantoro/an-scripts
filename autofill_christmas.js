@@ -68,16 +68,16 @@ function autofillForm2() {
 }
 
 function autofillForm3() {
-    document.getElementById("category").value = '7';
-    document.getElementById("subcat").value = '130';
-    document.getElementById("menu-icon").innerHTML = 'Holiday / Seasonal' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
+    document.getElementById("category").value = '12';
+    document.getElementById("subcat").value = '167';
+    document.getElementById("menu-icon").innerHTML = 'Comic Books' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
     document.getElementById("conditionn").value = '1';
     document.getElementById("usps").checked = true;
-    document.getElementById("rte1").value = 'Shipping is available for this item. A handling fee of $5 will be charged for each USPS flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. Please look closely at the photos, title, and description as all items are sold AS-IS.';
-    document.getElementsByName("tags")[0].value = 'Christmas, Holidays, Santa, Santa Claus, Decor, Holiday Decor, Collectibles';
+    document.getElementById("rte1").value = 'All items are sold AS-IS. If you require shipping, you will be charged for the postage amount plus any applicable handling fee (see below for details). Small items are shipped in small, medium or large USPS flat rate boxes. We will combine lots for shipping discounts. Please feel free to text if you have any questions about shipping 631-913-8063. A handling fee of $5 will be charged for each flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. ALL ITEMS NOT PICKED UP OR WITH SHIPPING ARRANGED BY THE END OF THE SPECIFIED PICK UP TIME WILL BE FORFEITED WITHOUT REFUND. AN ADDITIONAL PICKUP WINDOW OF 1 HOUR CAN BE ARRANGED FOR A FEE OF $25 PER HOUR OF AVAILABILITY. Shipping quotes may take up to 10 business days to receive.';
+    document.getElementsByName("tags")[0].value = 'Comic Book, Silver Age, Marvel, Vintage, Collectible Comic, Marvel Comics Group, Superhero Memorabilia, Classic Comic Book, 1970s Marvel';
   
     // Set the dropdown to the desired option
-    document.getElementById("auctionid").value = '39';
+    document.getElementById("auctionid").value = '44';
   
     // If the dropdown has an 'onchange' event that needs to be triggered manually
     if ("createEvent" in document) {
@@ -134,7 +134,7 @@ autofillButton2.addEventListener("click", autofillForm2);
 // Create a new button element
 var autofillButton3 = document.createElement("button");
 // Set the button text
-autofillButton3.textContent = "Autofill Christmas 5";
+autofillButton3.textContent = "Autofill Comics";
 // Set styles if you wish to make it more visible
 autofillButton3.style.position = "fixed";
 autofillButton3.style.top = "70px";
