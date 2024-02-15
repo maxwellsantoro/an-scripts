@@ -3,9 +3,9 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
-// @version     1.2
+// @version     1.4
 // @author      Maxwell Santoro
-// @description 2/14/2024, 11:55:06 PM
+// @description 2/14/2024, 12:11:06 PM
 // ==/UserScript==
 
 function autofillForm() {
