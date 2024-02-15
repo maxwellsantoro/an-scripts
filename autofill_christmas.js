@@ -99,7 +99,7 @@ function autofillForm3() {
 // Create a new button element
 var autofillButton = document.createElement("button");
 // Set the button text
-autofillButton.textContent = "Autofill Christmas 3";
+autofillButton.textContent = "Autofill Funko Pop";
 // Set styles if you wish to make it more visible
 autofillButton.style.position = "fixed";
 autofillButton.style.top = "10px";
