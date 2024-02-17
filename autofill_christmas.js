@@ -41,8 +41,8 @@ function autofillForm() {
 
 function autofillForm2() {
   document.getElementById("category").value = '12';
-  document.getElementById("status").value = '11';
   document.getElementById("subcat").value = '99';
+  document.getElementById("status").value = '11';
   document.getElementById("menu-icon").innerHTML = 'Trading Cards' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
   document.getElementById("conditionn").value = '1';
   document.getElementById("usps").checked = true;
@@ -71,8 +71,8 @@ function autofillForm2() {
 
 function autofillForm3() {
     document.getElementById("category").value = '12';
-    document.getElementById("status").value = '11';
     document.getElementById("subcat").value = '167';
+    document.getElementById("status").value = '11';
     document.getElementById("menu-icon").innerHTML = 'Comic Books' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
     document.getElementById("conditionn").value = '1';
     document.getElementById("usps").checked = true;
