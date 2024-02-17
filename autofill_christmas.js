@@ -3,16 +3,16 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
-// @version     1.4
+// @version     1.5
 // @author      Maxwell Santoro
 // @description 2/14/2024, 12:11:06 PM
 // ==/UserScript==
 
 function autofillForm() {
-  document.getElementById("category").value = '14';
+  document.getElementById("category").value = '12';
+  document.getElementById("subcat").value = '102';
   document.getElementById("status").value = '11';
-  document.getElementById("subcat").value = '105';
-  document.getElementById("menu-icon").innerHTML = 'Toys' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
+  document.getElementById("menu-icon").innerHTML = 'Other' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
   document.getElementById("conditionn").value = '1';
   document.getElementById("usps").checked = true;
   document.getElementById("rte1").value = 'All items are sold AS-IS. If you require shipping, you will be charged for the postage amount plus any applicable handling fee (see below for details). Small items are shipped in small, medium or large USPS flat rate boxes. We will combine lots for shipping discounts. Please feel free to text if you have any questions about shipping 631-913-8063. A handling fee of $5 will be charged for each flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. ALL ITEMS NOT PICKED UP OR WITH SHIPPING ARRANGED BY THE END OF THE SPECIFIED PICK UP TIME WILL BE FORFEITED WITHOUT REFUND. AN ADDITIONAL PICKUP WINDOW OF 1 HOUR CAN BE ARRANGED FOR A FEE OF $25 PER HOUR OF AVAILABILITY. Shipping quotes may take up to 10 business days to receive.';
