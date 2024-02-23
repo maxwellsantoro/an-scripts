@@ -3,7 +3,7 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
-// @version     1.5
+// @version     1.6
 // @author      Maxwell Santoro
 // @description 2/14/2024, 12:11:06 PM
 // ==/UserScript==
@@ -15,12 +15,12 @@ function autofillForm() {
   document.getElementById("menu-icon").innerHTML = 'Other' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
   document.getElementById("conditionn").value = '1';
   document.getElementById("usps").checked = true;
-  // document.getElementById("rte1").value = 'All items are sold AS-IS. If you require shipping, you will be charged for the postage amount plus any applicable handling fee (see below for details). Small items are shipped in small, medium or large USPS flat rate boxes. We will combine lots for shipping discounts. Please feel free to text if you have any questions about shipping 631-913-8063. A handling fee of $5 will be charged for each flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. ALL ITEMS NOT PICKED UP OR WITH SHIPPING ARRANGED BY THE END OF THE SPECIFIED PICK UP TIME WILL BE FORFEITED WITHOUT REFUND. AN ADDITIONAL PICKUP WINDOW OF 1 HOUR CAN BE ARRANGED FOR A FEE OF $25 PER HOUR OF AVAILABILITY. Shipping quotes may take up to 10 business days to receive.';
+  document.getElementById("rte1").value = 'Please make sure to review Additional Auction Details & Seller Instructions for all pickup and shipping information before bidding.';
 
   document.getElementsByName("tags")[0].value = 'Funko pop, comics, anime, Funko, pop, toy, figurine, collectible';
 
   // Set the dropdown to the desired option
-  document.getElementById("auctionid").value = '44';
+  document.getElementById("auctionid").value = '45';
 
   // If the dropdown has an 'onchange' event that needs to be triggered manually
   if ("createEvent" in document) {
@@ -46,11 +46,11 @@ function autofillForm2() {
   document.getElementById("menu-icon").innerHTML = 'Trading Cards' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
   document.getElementById("conditionn").value = '1';
   document.getElementById("usps").checked = true;
-  // document.getElementById("rte1").value = 'All items are sold AS-IS. If you require shipping, you will be charged for the postage amount plus any applicable handling fee (see below for details). Small items are shipped in small, medium or large USPS flat rate boxes. We will combine lots for shipping discounts. Please feel free to text if you have any questions about shipping 631-913-8063. A handling fee of $5 will be charged for each flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. ALL ITEMS NOT PICKED UP OR WITH SHIPPING ARRANGED BY THE END OF THE SPECIFIED PICK UP TIME WILL BE FORFEITED WITHOUT REFUND. AN ADDITIONAL PICKUP WINDOW OF 1 HOUR CAN BE ARRANGED FOR A FEE OF $25 PER HOUR OF AVAILABILITY. Shipping quotes may take up to 10 business days to receive.';
-  document.getElementsByName("tags")[0].value = 'Collectibles, sports, cards, trading, trading cards, rare, baseball, basketball, pokemon, football';
+  document.getElementById("rte1").value = 'Please make sure to review Additional Auction Details & Seller Instructions for all pickup and shipping information before bidding.'; 
+  document.getElementsByName("tags")[0].value = 'Collectibles, Sports Cards, Trading Cards, Rare Sports Memorabilia, Baseball Cards, Basketball Cards, Pokémon Cards, Football Cards, Vintage Cards, Rookie Cards, Limited Edition Cards, Sports Memorabilia, Card Collecting, Hobby Collectibles, Autographed Cards, Sports Collectibles, Mint Condition Cards, Holographic Cards, Investment Cards, Sports Card Auction';
 
   // Set the dropdown to the desired option
-  document.getElementById("auctionid").value = '44';
+  document.getElementById("auctionid").value = '45';
 
   // If the dropdown has an 'onchange' event that needs to be triggered manually
   if ("createEvent" in document) {
@@ -76,11 +76,11 @@ function autofillForm3() {
     document.getElementById("menu-icon").innerHTML = 'Comic Books' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
     document.getElementById("conditionn").value = '1';
     document.getElementById("usps").checked = true;
-    // document.getElementById("rte1").value = 'All items are sold AS-IS. If you require shipping, you will be charged for the postage amount plus any applicable handling fee (see below for details). Small items are shipped in small, medium or large USPS flat rate boxes. We will combine lots for shipping discounts. Please feel free to text if you have any questions about shipping 631-913-8063. A handling fee of $5 will be charged for each flatrate box. Any orders that cannot fit into a flat rate box are considered XL and a handling fee of $20 will be required for shipment. ALL ITEMS NOT PICKED UP OR WITH SHIPPING ARRANGED BY THE END OF THE SPECIFIED PICK UP TIME WILL BE FORFEITED WITHOUT REFUND. AN ADDITIONAL PICKUP WINDOW OF 1 HOUR CAN BE ARRANGED FOR A FEE OF $25 PER HOUR OF AVAILABILITY. Shipping quotes may take up to 10 business days to receive.';
-    // document.getElementsByName("tags")[0].value = 'Comic Book, Silver Age, Marvel, Vintage, Collectible Comic, Marvel Comics Group, Superhero Memorabilia, Classic Comic Book, 1970s Marvel';
+    document.getElementById("rte1").value = 'Please make sure to review Additional Auction Details & Seller Instructions for all pickup and shipping information before bidding.';
+    document.getElementsByName("tags")[0].value = 'Comic Book, Silver Age, Marvel, Vintage, Collectible Comic, Marvel Comics Group, Superhero Memorabilia, Classic Comic Book, 1970s Marvel';
   
     // Set the dropdown to the desired option
-    document.getElementById("auctionid").value = '44';
+    document.getElementById("auctionid").value = '45';
   
     // If the dropdown has an 'onchange' event that needs to be triggered manually
     if ("createEvent" in document) {
