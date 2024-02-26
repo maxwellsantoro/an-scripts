@@ -3,21 +3,21 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php
 // @grant       none
-// @version     2.0
+// @version     2.1
 // @author      Maxwell Santoro
 // @description 2/14/2024, 12:11:06 PM
 // ==/UserScript==
 
 function autofillForm() {
-  document.getElementById("category").value = '12';
-  document.getElementById("subcat").value = '102';
+  document.getElementById("category").value = '14';
+  document.getElementById("subcat").value = '105';
   document.getElementById("status").value = '11';
-  document.getElementById("menu-icon").innerHTML = 'Other' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
+  document.getElementById("menu-icon").innerHTML = 'Toys' + ' <i class="fa fa-angle-down" aria-hidden="true"></i>';
   document.getElementById("conditionn").value = '1';
   document.getElementById("usps").checked = true;
   document.getElementById("rte1").value = 'Please make sure to review Additional Auction Details & Seller Instructions for all pickup and shipping information before bidding.';
 
-  document.getElementsByName("tags")[0].value = 'Funko pop, comics, anime, Funko, pop, toy, figurine, collectible';
+  document.getElementsByName("tags")[0].value = 'Vintage Toys, Antique Toys, Retro Toys, Classic Toys, Collectible Toys, Toy Collectibles, Old School Toys, Nostalgic Toys, Toy Memorabilia, Rare Toys, Vintage Action Figures, Vintage Dolls, Tin Toys, Diecast Toys, Vintage Board Games, Model Trains, Vintage LEGO, Wind-Up Toys, Battery Operated Vintage Toys, Handmade Vintage Toys, Vintage Toy Cars, Vintage Plush Toys, Historical Toys, Toy Soldiers, Vintage Space Toys, Vintage Video Games, Vintage Puzzles, Wooden Toys, Vintage Educational Toys, Puppet Toys, Vintage Toy Sets, Collectible Figurines, Vintage Cartoon Toys, Vintage Superhero Toys, Vintage Fantasy Toys, Vintage Sports Toys, Vintage Anime Toys, Vintage Comic Book Toys, Limited Edition Toys, Vintage Toy Collections, Vintage Toy Auctions, Mint Condition Vintage Toys, Restored Vintage Toys, Vintage Toy Parts, Vintage Toy Accessories';
 
   // Set the dropdown to the desired option
   document.getElementById("auctionid").value = '45';
@@ -103,7 +103,7 @@ function autofillForm3() {
 // Create a new button element
 var autofillButton = document.createElement("button");
 // Set the button text
-autofillButton.textContent = "Autofill Funko Pop";
+autofillButton.textContent = "Autofill Toys";
 // Set styles if you wish to make it more visible
 autofillButton.style.position = "fixed";
 autofillButton.style.top = "10px";
