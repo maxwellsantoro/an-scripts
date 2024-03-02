@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Autofill AN
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
-// @match       https://www.auctionninja.com/portal/add_product.php
+// @match       https://www.auctionninja.com/portal/add_product.php*
 // @grant       none
 // @version     2.1
 // @author      Maxwell Santoro
