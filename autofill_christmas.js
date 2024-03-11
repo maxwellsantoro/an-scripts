@@ -3,7 +3,7 @@
 // @namespace   an-scripts (https://github.com/maxwellsantoro/an-scripts/)
 // @match       https://www.auctionninja.com/portal/add_product.php*
 // @grant       none
-// @version     3
+// @version     3.1
 // @author      Maxwell Santoro
 // @description 2/14/2024, 12:11:06 PM
 // ==/UserScript==
@@ -105,7 +105,6 @@ function autofillForm3() {
     document.getElementById("conditionn").value = '1';
     document.getElementById("usps").checked = true;
     document.getElementById("rte1").value = 'Please see photos for condition details.\n\n' + 'Please make sure to review Additional Auction Details & Seller Instructions for all pickup and shipping information before bidding.';
-    document.getElementsByName("tags")[0].value = 'Comic Book, Silver Age, Marvel, Vintage, Collectible Comic, Marvel Comics Group, Superhero Memorabilia, Classic Comic Book, 1970s Marvel';
   
     // Set the dropdown to the desired option
     document.getElementById("auctionid").value = '46';
